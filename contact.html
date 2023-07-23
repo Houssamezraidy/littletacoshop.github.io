@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop Contact Page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="taco_icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href=".//">Home</a></li>
+                <li><a href="../#About">About LTS</a></li>
+                <li><a href="../#Menu">Our Menu</a></li>
+                <li><a href="hours.html">Stores Hours</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="tacos_close_up_400x260.png" alt="tacos_close_up">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+    </header>
+    <main>
+        <h2>Our Contact form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send Us A Message</legend>
+                
+                <p>
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="your name">
+                </p>
+                <p>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" placeholder="your email">
+                </p>
+                <p>
+                    Your Message : <br>
+                    <textarea name="message" id="Message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">send</button>
+            <button type="reset">reset</button>
+        </form>
+        <article>
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, suite T <br> Kansas city,MO 55555-5555 <br>
+                <br>
+                Phone : <a href="+212612121212">+212-612121212</a>
+                <br>
+            </address>
+           
+        </article>
+        <br>
+        <a href="#">Back to top</a>
+        <hr>
+    </main>
+    <footer>
+        <p>Copyright &COPY; The Little Taco Shop</p>
+    </footer>
+</body>
+</html>
